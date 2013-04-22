@@ -1,6 +1,5 @@
-(install-packs '(                 ;; to help in editing textarea in chrome
+(install-packs '(;; to help in editing textarea in chrome
                  edit-server))
-
 
 ;; edit-server
 (if (and (daemonp) (locate-library "edit-server"))
