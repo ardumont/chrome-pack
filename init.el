@@ -1,9 +1,9 @@
 ;; need melpa temporarily
-(setq *CHROME-PACK-TEMPORARY-PACKAGE-ARCHIVES* package-archives)
+(setq *TEMPORARY-PACKAGE-ARCHIVES* package-archives)
 
 (install-packs
  '(edit-server)
- (add-to-list '*CHROME-PACK-TEMPORARY-PACKAGE-ARCHIVES* '("melpa" . "http://melpa.milkbox.net/packages/") t))
+ (add-to-list '*TEMPORARY-PACKAGE-ARCHIVES* '("melpa" . "http://melpa.milkbox.net/packages/") t))
 
 ;; edit-server
 (if (and (daemonp) (locate-library "edit-server"))
