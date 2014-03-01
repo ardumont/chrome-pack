@@ -1,3 +1,9 @@
+;;; chrome-pack.el --- Chrome/Chromium setup
+
+;;; Commentary:
+
+;;; Code:
+
 ;; need melpa temporarily
 (setq *TEMPORARY-PACKAGE-ARCHIVES* package-archives)
 
@@ -12,3 +18,4 @@
        (setq edit-server-new-frame nil)
        (edit-server-start)))
 
+;;; chrome-pack.el ends here
