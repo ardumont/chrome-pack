@@ -12,5 +12,3 @@
        (setq edit-server-new-frame nil)
        (edit-server-start)))
 
-;; Load bindings config
-(live-load-config-file "bindings.el")
