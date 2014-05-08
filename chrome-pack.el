@@ -4,6 +4,7 @@
 
 ;;; Code:
 
+(require 'install-packages-pack)
 (install-packs '(edit-server))
 
 ;; edit-server
@@ -13,4 +14,5 @@
        (setq edit-server-new-frame nil)
        (edit-server-start)))
 
+(provide 'chrome-pack)
 ;;; chrome-pack.el ends here
