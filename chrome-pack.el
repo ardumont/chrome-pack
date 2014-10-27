@@ -5,7 +5,7 @@
 ;;; Code:
 
 (require 'install-packages-pack)
-(install-packs '(edit-server))
+(install-packages-pack/install-packs '(edit-server))
 
 ;; edit-server
 (if (and (daemonp) (locate-library "edit-server"))
